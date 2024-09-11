@@ -1,0 +1,17 @@
+import streamlit as st
+
+def about_show():
+    st.subheader('We take care for our customers')
+    option = st.selectbox(
+        "Select what can we do for you",
+        ("Create and manage electronic personality", "Social presence improvement", "AI tools to grow your business", "Personalized AI journey")
+    )
+
+    if option == "Create and manage electronic personality":
+        st.info("At **Emprenix**, we specialize in creating and managing electronic personalities that seamlessly integrate with your brand's identity. Whether you're looking to develop a virtual assistant for customer service, enhance your social media presence, or build AI-driven avatars to represent your business, we have the expertise to bring your vision to life. Our solutions are tailored to meet your specific needs, from generating engaging and interactive personas to managing their interactions across digital platforms. By leveraging the latest in AI technology, we ensure that your electronic personality not only enhances user engagement but also helps streamline operations, providing a consistent and personalized experience for your audience.")
+    if option == "Social presence improvement":
+        st.info("At **Emprenix**, we help elevate your brand’s social presence with tailored strategies that drive engagement, boost visibility, and foster meaningful connections with your audience. Whether you're looking to refine your content, launch compelling marketing campaigns, or manage your social media interactions, we deliver solutions that amplify your voice in the digital world. Our team utilizes cutting-edge analytics and AI tools to create content that resonates, monitor performance, and adjust strategies for maximum impact. From brand storytelling to audience growth, we ensure your social presence reflects your brand’s true potential and stands out in a competitive marketplace.")
+    if option == "AI tools to grow your business":
+        st.info("At **Emprenix**, we harness the power of AI to unlock new growth opportunities for your business. Our AI tools are designed to streamline operations, enhance decision-making, and improve customer experiences, helping your business scale efficiently. From automating routine tasks and optimizing workflows to offering intelligent insights through data analysis, we provide innovative solutions that drive productivity and profitability. Whether it's developing personalized customer interactions with AI-driven chatbots or leveraging predictive analytics to stay ahead of trends, our AI tools empower your business to thrive in today's competitive landscape. Let us help you harness the full potential of AI to fuel your growth.")
+    if option == "Personalized AI journey":
+        st.info("At Emprenix, we offer a personalized AI journey that is fully customized to your business needs, helping you harness the power of artificial intelligence in a way that aligns with your goals. From the initial consultation to the final deployment, we work closely with you to understand your challenges, aspirations, and market dynamics, crafting AI solutions that are unique to your business. Whether it's creating tailored virtual assistants, building intelligent automation processes, or developing AI-driven insights, our team ensures every aspect of your AI journey is personalized and impactful. We empower your business to innovate and excel through solutions designed just for you, ensuring a seamless integration of AI into your operations and long-term success.")
