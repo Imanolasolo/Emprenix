@@ -5,3 +5,5 @@ langchain
 langchain-community
 openai
 tiktoken
+langchain-chroma
+faiss-cpu
