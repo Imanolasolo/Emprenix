@@ -3,3 +3,4 @@ streamlit_option_menu
 PyPDF2
 langchain
 langchain-community
+openai
